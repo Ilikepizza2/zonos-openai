@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Define available models and their corresponding GitHub repos & Hugging Face models
-declare -A MODELS
-MODELS["zonos"]="https://github.com/hexgrad/kokoro.git"
-
 START_COMMAND="python api-server.py"
 
 
